@@ -20,7 +20,7 @@ public class TestTerminalService {
 
     @Test
     public void testExecute() {
-        service.executeTest("testCaseName", "testCaseContent", "executorContent");
+        service.executeTest("testCaseName", "testCaseContent0", "executorContent0");
     }
 
 }

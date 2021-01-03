@@ -4,7 +4,6 @@ import gc.garcol.autofilltest.utils.FileUtil;
 import gc.garcol.autofilltest.utils.NightWatchUtil;
 import gc.garcol.autofilltest.utils.TerminalUtil;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import static gc.garcol.autofilltest.constants.FileConstant.EXECUTOR_FOLDER;

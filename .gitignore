@@ -5,6 +5,9 @@ target/
 mvnw
 mvnw.cmd
 
+_test_cases
+_test_executor
+
 ### STS ###
 .apt_generated
 .classpath
