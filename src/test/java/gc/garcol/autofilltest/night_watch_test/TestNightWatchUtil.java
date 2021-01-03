@@ -10,7 +10,7 @@ public class TestNightWatchUtil {
 
     @Test
     public void testUnixFileName() {
-        System.out.println(NightWatchUtil.UNIX.parseCommand("garcol"));
+        System.out.println(NightWatchUtil.UNIX.parseCommand("TestExecutor"));
     }
 
 }
