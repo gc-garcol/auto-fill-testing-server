@@ -2,6 +2,8 @@ package gc.garcol.autofilltest.utils;
 
 import gc.garcol.autofilltest.constants.NightWatchConstant;
 
+import static gc.garcol.autofilltest.constants.FileConstant.EXECUTOR_FOLDER;
+
 /**
  * [Nightwatchjs] Running Tests: https://nightwatchjs.org/guide/running-tests/nightwatch-runner.html
  * <br>
@@ -21,7 +23,7 @@ public enum NightWatchUtil {
     }
 
     public String parseCommand(String testFile) {
-        return String.format("%s ./_test_executor/%s.js", osCommand, testFile);
+        return String.format("%s ./%s/%s.js", osCommand, EXECUTOR_FOLDER, testFile);
     }
 
 }
