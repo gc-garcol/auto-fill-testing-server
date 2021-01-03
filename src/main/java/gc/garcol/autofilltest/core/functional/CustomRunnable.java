@@ -1,4 +1,4 @@
-package gc.garcol.autofilltest;
+package gc.garcol.autofilltest.core.functional;
 
 /**
  * @author thai-van

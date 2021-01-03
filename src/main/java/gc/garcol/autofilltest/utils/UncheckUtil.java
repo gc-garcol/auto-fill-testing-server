@@ -1,6 +1,6 @@
 package gc.garcol.autofilltest.utils;
 
-import gc.garcol.autofilltest.CustomRunnable;
+import gc.garcol.autofilltest.core.functional.CustomRunnable;
 
 /**
  * @author thai-van
